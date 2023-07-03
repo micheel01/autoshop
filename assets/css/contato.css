@@ -1,0 +1,198 @@
+* {
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+.body {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+.container-form2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 1em 0;
+   width: 100%;
+   display: flex;
+   box-shadow: 10px 5px 5px rgba(0, 0, 0, .212);
+
+}
+
+.imagesrc {
+
+   width: 800px;
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: #fafaf5;
+   padding: 1rem;
+}
+
+.form {
+
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+
+.form-header {
+   margin-bottom: 1rem;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.login-button button {
+
+   border: none;
+   background-color: rgba(201, 201, 201, 0.699);
+   padding: 0.4rem 1rem;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.login-button button:hover {
+
+   background-color: rgba(151, 151, 151, 0.699);
+}
+
+.login-button button a {
+   text-decoration: none;
+   font-weight: 500;
+   color: rgba(75, 73, 73, 0.863);
+
+}
+
+.form-header h1 ::after {
+   content: '';
+   display: block;
+   width: 6rem;
+   height: 0.5rem;
+   background-color: grey;
+   margin: 0 auto;
+   position: absolute;
+   border-radius: 100px;
+
+}
+
+.input-group {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 1rem 0;
+}
+
+.input-box {
+
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1.1rem;
+}
+
+.input-box input {
+
+   margin: 0;
+   padding: 0.5em 4rem;
+   border: none;
+   border-radius: 10px;
+   box-shadow: 1px 1px 10px rgba(75, 73, 73, 0.863);
+}
+
+.input-box input:hover {
+   background-color: rgb(255, 255, 255)
+}
+
+.input-box input:focus-visible {
+
+   outline: 1px solid rgba(75, 73, 73, 0.863);
+}
+
+.input-box label,
+.gender-title h5 {
+
+   font-size: 0.75rem;
+   font-weight: 500;
+   color: black;
+}
+
+.gender-group {
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   margin-top: 0.62rem;
+   padding: 0 0.5rem;
+
+}
+
+.gender-title {
+   margin-top: 2rem;
+}
+
+.gender-input {
+
+   display: flex;
+   align-items: center;
+
+}
+
+.gender-input input {
+
+   margin-left: 1rem;
+}
+
+.gender-input label {
+
+   font-size: 0.81rem;
+   font-weight: 600;
+   color: black;
+}
+
+.continue-button button {
+
+   width: 100%;
+   margin: 2.5rem 0;
+   border: none;
+   background-color: rgba(151, 151, 151, 0.699);
+   padding: 0.62rem;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.continue-button button:hover {
+   background-color: rgba(201, 201, 201, 0.699);
+}
+
+.continue-button button a {
+
+   text-decoration: none;
+   font-size: 0.93rem;
+   font-weight: 500;
+   color: rgba(5, 5, 5, 0.925);
+}
+
+.foot {
+   display: flex;
+   justify-content: center;
+   background: black;
+   color: white;
+   align-items: center;
+}
+
+.foot-image {
+   width: 100px;
+}

@@ -1,0 +1,145 @@
+.busca {
+    height: 60vh;
+    background: url('../img/home/busca-banner.jpg') no-repeat center;
+    color: white;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.busca-select {
+    padding: 0.5em 3em;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.busca-input {
+    margin: 0.5em;
+    padding: 1em 10em;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.busca-button {
+    border: transparent;
+    background-color: #ff6767;
+    border-radius: 100px;
+    padding: 1em;
+}
+
+.busca-image {
+    width: 8px;
+}
+
+.banner {
+   width: 100%;
+}
+
+.banner-item {
+   text-align: center;
+   margin: 1em;
+   max-width: 50%;
+}
+
+.banner-image {
+   max-width: 100%;
+}
+
+.banner-button {
+   border: transparent;
+   border-radius: 5px;
+   background-color: #920000;
+   color: #ffffff;
+   padding: 1em 2em;
+}
+
+.banner-button:hover {
+   cursor: pointer;
+   background-color: #2b2b2b;
+   color: #ffffff;
+}
+
+.categorias-container {
+   justify-content: center;
+}
+
+.categoria-button {
+   background-color: #272727;
+   border: transparent;
+   border-radius: 100px;
+   color: #a8a8a8;
+   font-weight: 300;
+   font-size: 1em;
+   margin: 1em;
+
+   width: 200px;
+   height: 75px;
+}
+
+.categoria-button:hover {
+   background-color: #585858;
+}
+
+.destaques {
+   margin: 1em;
+   text-align: center;
+}
+
+.destaques-container {
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+.destaques-image {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   max-width: 100%;
+}
+
+.destaques-titulo {
+   font-size: 1.5em;
+   font-weight: 400;
+}
+
+.destaques-text {
+   color: #585858;
+   font-size: 0.75em;
+}
+
+.destaques-button {
+   border: transparent;
+   border-radius: 10px;
+   background-color: #2b2b2b;
+   color: #ffffff;
+   margin: 0.5em;
+   padding: 0.5em 2em;
+}
+
+.destaques-button:hover {
+   background-color: #3f0000;
+}
+
+.contato-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 30vh;
+}
+
+.contato-title {
+    font-size: 1.5em;
+}
+
+.contato-button {
+    background-color: #3bbb00;
+    padding: 1em 2em;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.contato-link {
+    color: white;
+    text-decoration: none;
+}
